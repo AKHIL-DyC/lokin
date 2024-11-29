@@ -4,7 +4,7 @@ import Link from "next/link"
 const Landing = () => {
   return (
     
-    <div className="flex min-h-screen items-center justify-center bg-background">
+    <div className="flex min-h-[80vh] items-center justify-center bg-background">
       <div className="text-center">
         
         <h1 className={cn(

@@ -43,7 +43,7 @@ export default function SignupFormDemo() {
     router.push('/')
   };
   return (
-    <div className="max-w-md  mt-52 align-middle w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
+    <div className="max-w-md mt-20 align-middle w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
         Sign Up here
       </h2>

@@ -42,7 +42,7 @@ export function Nav() {
   }, [id,email])
 
   return (
-    <div className="fixed top-0 inset-x-0 flex justify-between items-center max-w-screen-xl mx-auto z-50 p-4 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <div className="sticky top-0 inset-x-0 flex justify-between items-center max-w-screen-xl mx-auto  p-4 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       {/* Left side: Logo */}
       <NavigationMenu>
         <NavigationMenuList>

@@ -8,7 +8,7 @@ const page = () => {
         <div style={{width:"80vw",height:"100vh",display:"flex",justifyContent:'center',alignItems:'center'}}>
             <Quotes/>
         </div>
-        <div style={{display:'flex',paddingTop:'4vh',flexDirection:'column',gap:'12vh'}}>
+        <div style={{display:'flex',paddingTop:'0vh',flexDirection:'column',gap:'12vh'}}>
         <Timer/>
         <WModel/>
         </div>
